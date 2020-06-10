@@ -8,6 +8,10 @@
     "remark"
   ],
   "main": "index.js",
+  "files": [
+    "/index.js",
+    "/gatsby-browser.js"
+  ],
   "author": "Alan Poulain <contact@alanpoulain.eu>",
   "license": "MIT",
   "homepage": "https://github.com/alanpoulain/gatsby-remark-code-selector#readme",
