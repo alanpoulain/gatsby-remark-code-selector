@@ -1,0 +1,46 @@
+{
+  "name": "gatsby-remark-code-selector",
+  "description": "Transform equivalent code blocks in Gatsby markdown files into a selector",
+  "version": "0.1.0",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "remark"
+  ],
+  "main": "index.js",
+  "author": "Alan Poulain <contact@alanpoulain.eu>",
+  "license": "MIT",
+  "homepage": "https://github.com/alanpoulain/gatsby-remark-code-selector#readme",
+  "bugs": {
+    "url": "https://github.com/alanpoulain/gatsby-remark-code-selector/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanpoulain/gatsby-remark-code-selector.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "watch": "babel -w src --out-dir .",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "lint": "eslint --fix ."
+  },
+  "dependencies": {
+    "remark-macro": "^1.0.0",
+    "unist-util-visit": "^2.0.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "babel-preset-gatsby-package": "^0.4.0",
+    "cross-env": "^5.0.0",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^2.0.0"
+  }
+}
